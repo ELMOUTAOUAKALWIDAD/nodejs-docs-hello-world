@@ -23,7 +23,6 @@ jobs:
 - job: buildimage
   pool:
    vmImage: 'ubuntu-20.04'
-
   steps:
   - task: NodeTool@0
     inputs:
