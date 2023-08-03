@@ -31,7 +31,7 @@ jobs:
   - script: |
      npm install
 
-- job: buildimage
+- job: buildapp
   pool:
    vmImage: 'ubuntu-latest' 
 
